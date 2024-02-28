@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+nav{
+    background-color: yellow;
+    width:15%;
+    height:100vh;   
+    
+}
+#menu{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    color:red;
+    padding:20px 0px;
+    display: block;
+    text-align: center;
+    font-size:25px;
+    border-bottom: 2px solid black;
+       
+}
+a:hover{
+    background-color:black;
+    color:red;
+    
+    
+}
+#veg{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua;
+    width: 100%;
+}
+#veg1{
+ position: relative;
+}
+#veg1:hover #veg{
+    display: block;
+}
+
+#type{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: grey;
+    width: 100%;
+}
+
+#bf{
+    position: relative;
+}
+
+#bf:hover #type{
+    display: block;
+}
+
+#lunch{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: grey;
+    width: 100%;
+}
+
+#lu{
+    position: relative;
+}
+
+#lu:hover #lunch{
+    display: block;
+}
+
+#dinner{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: grey;
+    width: 100%;
+}
+#din{
+    position: relative;
+}
+#din:hover #dinner{
+    display: block;
+}
+#nv{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua; 
+    width: 100%;
+}
+#non{
+    position: relative;
+}
+#non:hover #nv{
+    display: block;
+}
+
+#nv{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua;
+    width: 100%; 
+}
+
+#nonveg{
+    position: relative;
+}
+#nonveg:hover #nv{
+    display: block ;
+}
+#nonl{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua; 
+    width: 100%;
+}
+#non{
+    position: relative;
+}
+#non:hover #nonl{
+    display: block;
+}
+
+#dn{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua;
+    width: 100%; 
+}
+#din{
+    position: relative;
+}
+#din:hover #dn{
+    display: block;
+}
+
+#dr{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: red(124, 58, 12);
+    position: absolute;
+    top:0%;
+    left: 100%;
+    display: none;
+    background-color: aqua; 
+    width: 100%; 
+}
+#drink{
+    position: relative;
+}
+#drink:hover #dr{
+    display: block;
+}
+
